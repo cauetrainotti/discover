@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <!-- Permite que a pagina aceite caracteres especiais-->
+    <meta name="viewport" content="width=device-width,     initial-scale=1.0" />
+    <!-- Viewport: Define o conteúdo que é visível na página (Adapta de acordo com o tamanho da página, para celular por exemplo)-->
+    <title>Linkable</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Rel: Relation com um arquivo do estilo denominado no código; Href: Onde está o arquivo que você procura-->
+    <!-- Ao usar ./ no href, você apresenta que o arquivo está na mesma pasta.-->
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Fotona braba" />
+        <p>Cauê Trainotti</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="https://youtube.com" target="_blank">Meu canal no youtube</a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s"
+            target="_blank"
+            >Surpresa</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/cauetrainotti" target="_blank"
+            >Meu portifólio</a
+          >
+        </li>
+        <li>
+          <a href="https://twitch.com" target="_blank">Meu canal de lives</a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com" target="_blank">
+          <ion-icon name="logo-github"> </ion-icon>
+        </a>
+
+        <a href="https://instagram.com/trwinotti" target="_blank">
+          <ion-icon name="logo-instagram"> </ion-icon>
+        </a>
+
+        <a href="https://youtube.com" target="_blank">
+          <ion-icon name="logo-youtube"> </ion-icon>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank">
+          <ion-icon name="logo-linkedin"> </ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com amor por
+        <a href="https://instagram.com/trwinotti" target="_blank"
+          >Cauê Felipe</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
